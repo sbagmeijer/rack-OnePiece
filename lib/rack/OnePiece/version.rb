@@ -1,5 +1,5 @@
 module Rack
-  class Norris
+  class OnePiece
     VERSION = "0.1.0"
   end
 end

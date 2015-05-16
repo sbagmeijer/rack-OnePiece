@@ -1,8 +1,8 @@
-require File.expand_path("../lib/rack/one-piece/version", __FILE__)
+require File.expand_path("../lib/rack/OnePiece/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "rack-one-piece"
-  s.version     = Rack::One-Piece::VERSION
+  s.name        = "rack-OnePiece"
+  s.version     = Rack::OnePiece::VERSION
   s.summary     = "One Piece Quotes in X-One-Piece header"
   s.description = "Enjoy your random One Piece header"
   s.homepage    = "https://github.com/sbagmeijer/rack-one-piece"

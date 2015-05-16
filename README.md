@@ -1,4 +1,4 @@
-# Rack::One-Piece™
+# Rack::OnePiece™
 
 Insert `X-One-Piece` header with a random quote from One Piece into your rack app!
 
@@ -7,14 +7,14 @@ Insert `X-One-Piece` header with a random quote from One Piece into your rack ap
 This project is a stupid simple rack middleware that will inject a header
 with random One Piece quote into every response.
 
-<img src="onepiece.jpg" />
+<img src="OnePiece.jpg" />
 
 ## Get It
 
 Bundle that shit:
 
 ```
-gem "rack-one-piece"
+gem "rack-OnePiece"
 ```
 
 ## Run it
@@ -22,8 +22,8 @@ gem "rack-one-piece"
 In your fabulous `config.ru` add some stuff:
 
 ```ruby
-require "rack/one-piece"
-use Rack::One-Piece
+require "rack/OnePiece"
+use Rack::OnePiece
 ```
 
 ## See It

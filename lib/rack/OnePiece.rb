@@ -1,21 +1,21 @@
 module Rack
-  class Norris
+  class OnePiece
     def initialize(app)
       @app   = app
-      @jokes = read_jokes
+      @jokes = read_quotes
     end
 
     def call(env)
       status, headers, body = @app.call(env)
-      headers["X-Chuck-Norris"] = @jokes.sample
+      headers["X-One-Piece"] = @quotes.sample
       [status, headers, body]
     end
 
     private
 
-    def read_jokes
+    def read_quotes
       path = ::File.dirname(__FILE__)
-      ::File.readlines(::File.join(path, "norris/jokes.txt"))
+      ::File.readlines(::File.join(path, "OnePiece/One-Piece-Quotes.txt"))
     end
   end
 end
